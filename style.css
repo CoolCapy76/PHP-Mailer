@@ -1,0 +1,58 @@
+body {
+    background: -webkit-linear-gradient(to bottom, #00f260, #0575e6); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #00f260, #0575e6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    color: black;
+    font-size: 40pt;
+    text-align: center;
+    font-weight: bolder;
+}
+
+input{
+    border: none;
+    background-color: rgb(33,33,33);
+    width: 100%;
+    color: aliceblue;
+    font-size: 40pt;
+    margin-bottom: 40px;
+}
+
+input:valid{
+    background-color: #10387d;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#msg {
+
+}
+
+form{
+    margin: auto;
+    display: table;
+    font-size: 40pt;
+}
+
+button{
+    border: none;
+    background-color: rgb(33,33,33);background-color: rgb(33,33,33);
+    color: aliceblue;
+    width: 100%;
+    padding: 20px;
+    font-size: 40pt;
+}
+
+button:hover{
+    color: ghostwhite;
+    background-color: #0575e6;
+}

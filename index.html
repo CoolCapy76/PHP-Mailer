@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PHP Mailer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="vecteezy_outline-email-icon-isolated-on-grey-background-open_6417370.jpg">
+</head>
+<body>
+<h1>Изпращатор на имеил съобщения</h1>
+
+<form action="mail.php" method="post">
+    <label>Имеил на който да изпрати те съобщение:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <label>Тема на имеила</label><br>
+    <input type="text" name="subject" required><br>
+    <label>Съобщение:</label><br>
+    <input type="text" id="msg" name="msg" required><br>
+    <label>Брой пъти да се изпрати съобщението:</label><br>
+    <input type="number" id="number" name="number" required><br>
+    <button><submit>Изпрати</submit></button>
+
+
+</form>
+
+
+
+</body>
+</html>
